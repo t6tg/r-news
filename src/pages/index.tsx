@@ -1,5 +1,13 @@
 import React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
+interface Props {}
+
+const index = (props: Props) => {
+  return (
+    <div>
+      <p className="text-2xl">Hello World</p>
+    </div>
+  )
 }
+
+export default index
