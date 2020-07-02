@@ -1,5 +1,5 @@
 import React from "react"
-import "../../static/main.css"
+import "../../../static/main.css"
 
 interface Props {}
 
