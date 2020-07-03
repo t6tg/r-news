@@ -10,7 +10,7 @@ const Header = (props: Props) => {
         the issue on
         {"  "}
         <a
-          href="http://github.com/thanawatgulati/r-news"
+          href="http://github.com/thanawatgulati/r-news/issues"
           target="_blank"
           rel="noopener noreferrer"
           className="text-red-800 hover:text-red-700"
