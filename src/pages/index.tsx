@@ -7,7 +7,7 @@ const index = (props: Props) => {
   return (
     <div>
       <SEO title="Home" />
-      <p className="text-4xl font-bold">Hello World</p>
+      <p className="text-2xl font-thin">Hello World</p>
     </div>
   )
 }
