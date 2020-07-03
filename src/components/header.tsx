@@ -7,7 +7,8 @@ const Header = (props: Props) => {
     <div>
       <h1 className="bg-gray-200 dark:bg-gray-100 p-3 rounded-lg text-gray-900 mb-8">
         This site is under development. If you encounter a problem, please open
-        issue in{"  "}
+        the issue on
+        {"  "}
         <a
           href="http://github.com/thanawatgulati/r-news"
           target="_blank"
