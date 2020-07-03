@@ -1,9 +1,17 @@
-import React from "react"
+import React, { ReactNode } from "react"
+import Header from "./Header"
 
-interface Props {}
-
-const layout = (props: Props) => {
-  return <div className="container mx-auto"></div>
+interface Props {
+  children: ReactNode
 }
 
-export default layout
+const Layout = (props: Props) => {
+  return (
+    <div className="container mx-auto mt-10 w-4/5">
+      <Header />
+      {props.children}
+    </div>
+  )
+}
+
+export default Layout
