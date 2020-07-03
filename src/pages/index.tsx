@@ -1,6 +1,7 @@
 import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
+import Feed from "../components/feed"
 
 interface Props {}
 
@@ -9,7 +10,7 @@ const index = (props: Props) => {
     <div>
       <SEO title="Home" />
       <Layout>
-        <p className="text-2xl font-thin">Hello World</p>
+        <Feed />
       </Layout>
     </div>
   )
