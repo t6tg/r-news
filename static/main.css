@@ -5,6 +5,9 @@
 @tailwind utilities;
 
 body {
+  @apply text-gray-900;
+}
+body.dark {
   @apply text-white;
   @apply bg-gray-900;
 }
