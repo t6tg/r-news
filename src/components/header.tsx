@@ -1,10 +1,13 @@
 import React from "react"
-import "../../../static/main.css"
 
 interface Props {}
 
 const Header = (props: Props) => {
-  return <div></div>
+  return (
+    <div>
+      <h1 className="text-lg">Header</h1>
+    </div>
+  )
 }
 
 export default Header
