@@ -37,13 +37,5 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-dark-mode`,
-    {
-      resolve: `gatsby-source-ghost`,
-      options: {
-        apiUrl: `${process.env.DOMAIN_REDXAV}`,
-        contentApiKey: `${process.env.CONTENT_API}`,
-        version: `v3`,
-      },
-    },
   ],
 }
