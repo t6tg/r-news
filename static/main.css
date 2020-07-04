@@ -6,6 +6,7 @@
 
 body {
   @apply text-gray-900;
+  @apply bg-gray-100;
 }
 body.dark {
   @apply text-white;
