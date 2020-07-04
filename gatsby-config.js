@@ -41,7 +41,7 @@ module.exports = {
       resolve: `gatsby-source-ghost`,
       options: {
         apiUrl: `${process.env.DOMAIN_REDXAV}`,
-        contentApiKey: `${process.env.Content_API}`,
+        contentApiKey: `${process.env.CONTENT_API}`,
         version: `v3`,
       },
     },
