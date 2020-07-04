@@ -6,7 +6,7 @@ interface Props {}
 
 const c = (props: Props) => {
   return (
-    <Layout>
+    <Layout tag="Categories">
       <SEO title="Categories" />
       <div></div>
     </Layout>

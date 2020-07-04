@@ -7,12 +7,10 @@ interface Props {}
 
 const index = (props: Props) => {
   return (
-    <div>
+    <Layout tag="Home">
       <SEO title="Home" />
-      <Layout>
-        <Feed />
-      </Layout>
-    </div>
+      <Feed />
+    </Layout>
   )
 }
 

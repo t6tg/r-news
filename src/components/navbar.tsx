@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
-interface Props {}
+interface Props {
+  tag: string
+}
 
 const Navbar = (props: Props) => {
   const [isExpanded, toggleExpansion] = useState(false)
@@ -17,9 +19,6 @@ const Navbar = (props: Props) => {
           viewBox="0 0 94.000000 95.000000"
           preserveAspectRatio="xMidYMid meet"
         >
-          <metadata>
-            Created by potrace 1.16, written by Peter Selinger 2001-2019
-          </metadata>
           <g
             transform="translate(0.000000,95.000000) scale(0.100000,-0.100000)"
             fill="#9B2C2C"
@@ -42,7 +41,10 @@ l-255 152 -41 -47z"
         </svg>
 
         <span className="font-semibold text-xl tracking-tight text-gray-900 dark:text-white">
-          RedXAV
+          RedXAV{" "}
+          <span className="text-sm bg-red-800 p-1 rounded-full px-2">
+            {props.tag}
+          </span>
         </span>
       </div>
       <div className="block lg:hidden">
@@ -84,7 +86,7 @@ l-255 152 -41 -47z"
               to="/t"
               className="block mt-4 lg:inline-block lg:mt-0 dark:text-gray-100 hover:text-red-800"
             >
-              Tops
+              Top AV
             </Link>
           </div>
         </div>
