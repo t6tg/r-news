@@ -1,3 +1,4 @@
+require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: "RedXAV",
@@ -36,5 +37,13 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-dark-mode`,
+    {
+      resolve: `gatsby-source-ghost`,
+      options: {
+        apiUrl: `${process.env.DOMAIN_REDXAV}`,
+        contentApiKey: `${process.env.Content_API}`,
+        version: `v3`,
+      },
+    },
   ],
 }
