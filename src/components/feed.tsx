@@ -8,7 +8,8 @@ const Feed = (props: Props) => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
   setTimeout(() => {
-    setError(true)
+    // setError(true)
+    setLoading(false)
   }, 2000)
   if (error) {
     return <Load status="error" />
@@ -21,6 +22,7 @@ const Feed = (props: Props) => {
           <Load status="load" />
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            {/* Mockup */}
             <Card />
             <Card />
             <Card />

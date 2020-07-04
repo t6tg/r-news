@@ -76,13 +76,13 @@ l-255 152 -41 -47z"
               Home
             </Link>
             <Link
-              to="/c"
+              to="/categories"
               className="block mt-4 lg:inline-block lg:mt-0 dark:text-gray-100 hover:text-red-800 mr-4"
             >
               Categories
             </Link>
             <Link
-              to="/t"
+              to="/top"
               className="block mt-4 lg:inline-block lg:mt-0 dark:text-gray-100 hover:text-red-800"
             >
               Top AV
