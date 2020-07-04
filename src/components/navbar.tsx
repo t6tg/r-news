@@ -42,7 +42,7 @@ l-255 152 -41 -47z"
 
         <span className="font-semibold text-xl tracking-tight text-gray-900 dark:text-white">
           RedXAV{" "}
-          <span className="text-sm bg-red-800 p-1 rounded-full px-2">
+          <span className="text-sm bg-red-800 p-1 rounded-full px-2 text-white">
             {props.tag}
           </span>
         </span>
