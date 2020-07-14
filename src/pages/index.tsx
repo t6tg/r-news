@@ -10,6 +10,7 @@ const index = (props: Props) => {
     <Layout tag="Home">
       <SEO title="Home" />
       <Feed />
+      <div>Hello World</div>
     </Layout>
   )
 }
